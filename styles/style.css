@@ -13,6 +13,11 @@ White: #FFF
 }
 
 header {
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+nav {
     margin: 0 50px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     display: flex;
@@ -76,7 +81,7 @@ article h2 {
     font-size: 44px;
     font-weight: 500;
     padding-bottom: 5px;
-    border-bottom: #00B172 solid 3px;
+    border-bottom: #00B172 solid 5px;
 }
 #info-spotify ul {
     display: flex;
@@ -112,4 +117,35 @@ article h2 {
 #green-box {
     background-color: #00B172;
     margin: 10px 30px;
+    height: 1000px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spotify-icon-white {
+    width: 300px;
+}
+#screenshot {
+    height: 750px; 
+    margin-left: 200px;
+}
+#text-box ul {
+    padding-left: 0;
+}
+
+#title {
+    border-bottom: white solid 5px;
+    font-size: 40px;
+    color: #FFF;
+    padding-bottom: 10px;
+    font-size: 50px;
+    padding-left: 0;
+}
+.list-elements {
+    list-style: none;
+    color: white;
+    font-size: 24px;
+    padding-left: 0;
+    line-height: 1.5;
 }
