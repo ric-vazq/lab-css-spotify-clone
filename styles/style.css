@@ -6,3 +6,110 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header {
+    margin: 0 50px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0; 
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 28px;
+    margin: 0 20px;
+    width: 750px;
+    padding-left: 0;
+
+}
+
+
+
+#spotify-logo {
+    height: 100px; 
+}
+
+article {
+    background-image: url(../images/landing.jpg);
+    height: 1200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+
+}
+article h1 {
+    font-size: 88px;
+    font-weight: 500;
+    margin: 50px 0; 
+    
+}
+
+article h2 {
+    font-size: 32px;
+    text-align:center;
+    width: 900px; 
+    font-weight: 300;
+}
+
+#info-spotify {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px; 
+
+}
+#info-spotify h2 {
+    margin: 50px 0;
+    font-size: 44px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: #00B172 solid 3px;
+}
+#info-spotify ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+    width: 1500px; 
+    padding: 50px 50px; 
+}
+.info-block {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.info-block img {
+    height: 150px;
+}
+.info-block header {
+    color: #00B172;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.info-block p {
+    font-size: 24px;
+    font-weight: 300;
+    width: 300px;
+    line-height: 1.5em; 
+}
+
+#green-box {
+    background-color: #00B172;
+    margin: 10px 30px;
+}
