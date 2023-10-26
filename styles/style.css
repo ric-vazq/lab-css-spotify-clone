@@ -14,6 +14,7 @@ White: #FFF
 
 header {
     position: fixed;
+    top: 0;
     width: 100vw;
     background-color: white;
 }
@@ -101,7 +102,7 @@ article h2 {
 .info-block img {
     height: 150px;
 }
-.info-block header {
+.info-block h3 {
     color: #00B172;
     font-weight: 700;
     font-size: 32px;
